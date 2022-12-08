@@ -1,1 +1,1 @@
-this script gives file owner excutable rights
+this script refrences modes from hello to olleh
