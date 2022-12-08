@@ -1,1 +1,1 @@
-this script creats an empty file by the name hello
+this script adds excuting rights to file named hello
