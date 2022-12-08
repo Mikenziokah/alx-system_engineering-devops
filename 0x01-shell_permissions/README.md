@@ -1,1 +1,1 @@
-this script sets permission for a file hello for the owner and agroup to have excute while other users will have read only permission
+this script creats excution rights to the owner group and others in the hello file
