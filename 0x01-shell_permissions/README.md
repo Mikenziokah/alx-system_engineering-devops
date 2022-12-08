@@ -1,1 +1,1 @@
-a directory with permission 751 is created
+changes group owner from hello to school
