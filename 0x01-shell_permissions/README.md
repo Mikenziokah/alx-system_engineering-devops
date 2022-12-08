@@ -1,1 +1,1 @@
-creating a script that switches current user to betty
+this script shows the active username of the current user
