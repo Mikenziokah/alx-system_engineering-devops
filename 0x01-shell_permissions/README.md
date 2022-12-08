@@ -1,1 +1,1 @@
-this script changers a file owner from hello to betty
+this script creats an empty file by the name hello
