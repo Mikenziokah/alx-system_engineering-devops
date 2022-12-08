@@ -1,1 +1,1 @@
-this script refrences modes from hello to olleh
+sets excutable permissions to all subdirectories for th owner group and others
