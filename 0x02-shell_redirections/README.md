@@ -1,1 +1,1 @@
-this script cretas a hello world
+creates smileys
