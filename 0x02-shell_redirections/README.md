@@ -1,1 +1,1 @@
-lists all files with .gif files in all directories
+ rewrites the first letter of each line
