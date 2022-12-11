@@ -1,1 +1,1 @@
-creates smileys
+displaying contents of this file
