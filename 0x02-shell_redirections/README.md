@@ -1,1 +1,1 @@
-displaying the newest10 lines of the head
+displays words that are the same
