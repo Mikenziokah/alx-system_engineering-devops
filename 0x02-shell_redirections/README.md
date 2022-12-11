@@ -1,1 +1,1 @@
-writes into a diffrent file
+ls_cwd_content
