@@ -1,1 +1,1 @@
-displays two files contents at once
+tail displays the last 10 lines of myfile
