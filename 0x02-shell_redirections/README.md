@@ -1,1 +1,1 @@
-tail displays the last 10 lines of myfile
+head displays the first 10 lines of myfile
