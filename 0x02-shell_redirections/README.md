@@ -1,1 +1,1 @@
-displays words that are the same
+contains root
