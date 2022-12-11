@@ -1,1 +1,1 @@
-dublicating the last line of a file
+deleting all js files
