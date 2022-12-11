@@ -1,1 +1,1 @@
-reverses the inputs
+sorts users and their directories
