@@ -1,1 +1,1 @@
-contains root
+displays files with bin
