@@ -1,1 +1,1 @@
-creats a file withcharcters
+writes into a diffrent file
