@@ -1,1 +1,1 @@
-displays files with bin
+displays files with root and 3 lines
