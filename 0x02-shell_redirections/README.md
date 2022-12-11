@@ -1,1 +1,1 @@
-deleting empty files and reverse back
+lists all files with .gif files in all directories
