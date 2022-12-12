@@ -1,1 +1,1 @@
-displaying all enviroments and variables
+creats a new local variable
