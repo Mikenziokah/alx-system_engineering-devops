@@ -1,1 +1,1 @@
-prints all variables in an enviroment
+displaying all enviroments and variables
