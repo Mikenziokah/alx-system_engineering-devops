@@ -1,1 +1,1 @@
-displays the script hello user 
+the last directory my shell looks into
