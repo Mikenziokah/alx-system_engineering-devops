@@ -1,1 +1,1 @@
-counts all directories
+prints all variables in an enviroment
