@@ -1,1 +1,1 @@
-rot 13 encyption
+prints every other line 
