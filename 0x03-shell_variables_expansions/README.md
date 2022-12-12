@@ -1,1 +1,1 @@
-prints the result of deviding
+displays the power of two numbers
