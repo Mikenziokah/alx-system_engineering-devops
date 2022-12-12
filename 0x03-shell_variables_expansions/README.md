@@ -1,1 +1,1 @@
-prints every other line 
+adds two numbers 
