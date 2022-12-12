@@ -1,1 +1,1 @@
-displays the result of addition
+prints the result of deviding
