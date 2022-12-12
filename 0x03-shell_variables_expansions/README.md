@@ -1,1 +1,1 @@
-creats a script that makes global variable
+displays the result of addition
