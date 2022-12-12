@@ -1,1 +1,1 @@
-displays the power of two numbers
+ from base 2 to 10 script
