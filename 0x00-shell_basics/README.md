@@ -1,1 +1,1 @@
-inside the shell basi readmr
+shell basics ped command
