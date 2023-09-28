@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Script that displays School 10 times,  but for the 9th iteration, displays Best School and then Hi on a new line
+x=0
+while [ $x -le 9 ]
+do
+	echo "Best School"
+	if [ $x -eq 8 ]
+	then
+		echo "Hi"
+	fi
+	((x++))
+done
