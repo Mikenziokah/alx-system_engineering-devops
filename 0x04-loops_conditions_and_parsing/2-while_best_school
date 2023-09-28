@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 # script that displays best school 10 times using while loop
-x=10; while [$x -le 9]; do echo "Best School"; ((x++)); done
+x=10; while [ $x -le 9 ]; do echo "Best School"; ((x++)); done
