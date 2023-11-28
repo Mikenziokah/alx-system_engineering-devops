@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Install nginx on remote server
+
+apt-get -y update
+apt-get -y install nginx
+
+sudo sed -i "s/ server_name _; server_name _;\n\terror_page 404 \/custom_404" 
+echo "Ceci n'est pas une page" | sudo tee /var/www/html/custom_404.html
+sudo service nginx start
