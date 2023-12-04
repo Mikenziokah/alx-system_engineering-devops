@@ -5,6 +5,7 @@ sudo apt-get -y install software-properties-common
 sudo add-apt-repository -y ppa:vbernat/haproxy-2.0
 sudo apt-get update
 sudo apt-get -y install haproxy=2.0.\*
+sudo service haproxy start
 echo " frontend requests
 	bind *:80
 	default_backend web_servers
