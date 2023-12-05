@@ -31,5 +31,5 @@ echo "server {
     }
 }" | sudo tee /etc/nginx/sites-available/default
 
-# Reload Nginx to apply the changes
-sudo service nginx reload
+# Restart Nginx to apply the changes
+sudo service nginx restart
