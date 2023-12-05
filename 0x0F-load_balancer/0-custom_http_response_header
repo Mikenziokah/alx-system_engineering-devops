@@ -28,4 +28,4 @@ echo "server {
 		internal;
     }
 }" | sudo tee /etc/nginx/sites-available/default
-sudo service nginx start
+sudo service nginx restart
