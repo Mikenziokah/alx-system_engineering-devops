@@ -4,9 +4,28 @@ sudo apt-get -y update
 sudo apt-get -y install nginx
 echo "Hello World!" | sudo tee /usr/share/nginx/html/index.html
 echo "Holberton School" | sudo tee /var/www/html/index.nginx-debian.html
-sudo sed -i '/listen 80 default_server;/a rewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;' /etc/nginx/sites-available/default
-echo "Ceci n'est pas une page" > /var/www/html/custom_404.html
-sudo sed -i "/listen 80 default_server;/a add_header X-Served-By \$hostname;" /etc/nginx/sites-available/default
-sudo sed -i "s/server_name _;/server_name _;\n\terror_page 404 \/custom_404.html;\n\tlocation = \/custom_404.html {\n\t\troot \/var\/www\/html;\n\t\tinternal;\n\t}\n\tlocation \/redirect_me {\n\t\treturn 301 https:\/\/www.youtube.com\/watch?v=QH2-TGUlwu4;\n\t}\n\tadd_header X-Served-By \$hostname;/" /etc/nginx/sites-available/default
-sudo sed -i "s/http {/http { add_header X-Served-By \$hostname;/" /etc/nginx/nginx.conf
+# Get the hostname of the server
+hostname=$(hostname)
+
+# Create a custom Nginx configuration file
+echo "server {
+    listen 80 default_server;
+    listen [::]:80 default_server;
+
+    server_name _;
+
+    location / {
+        # Set the custom HTTP header
+        add_header X-Served-By $hostname;
+
+        # location /redirect_me {
+		return 301 https://www.youtube.com/watch?v=QH2-TGUlwu4;
+	}
+	
+	error_page 404 /404.html;
+	
+	location = /404.html{
+		internal;
+    }
+}" | sudo tee /etc/nginx/sites-available/default
 sudo service nginx start
