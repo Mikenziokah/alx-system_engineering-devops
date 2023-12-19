@@ -2,6 +2,6 @@
 # making nginx run as nginx and listen at port 8080
 pkill apache2
 chown nginx: nginx /etc/nginx/nginx.conf
-chmod 644 /etc/nginx/nginx.cof
+chmod 644 /etc/nginx/nginx.conf
 sed -i 's/80/8080/g' /etc/nginx/sites-available/default
 sudo -u nginx service nginx start
