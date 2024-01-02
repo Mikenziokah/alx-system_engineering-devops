@@ -19,8 +19,8 @@ if __name__ == "__main__":
     user_id = sys.argv[1]
     c_tasks = []
     for task in todo_dict:
-            c_tasks.append([user_id, user_name, task.get('completed'),
-                            task.get('title')])
+        c_tasks.append([user_id, user_name, task.get('completed'),
+                       task.get('title')])
 
     filename = '{}.csv'.format(user_id)
     with open(filename, mode='w') as f:
