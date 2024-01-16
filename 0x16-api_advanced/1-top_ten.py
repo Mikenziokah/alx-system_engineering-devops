@@ -1,8 +1,9 @@
 #!/usr/bin/python3
 """ function that queries the Reddit API and prints the titles"""
 
+import json
 import requests
-
+import sys
 
 def top_ten(subreddit):
     """
