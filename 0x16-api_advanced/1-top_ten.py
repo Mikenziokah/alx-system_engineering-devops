@@ -5,6 +5,7 @@ import json
 import requests
 import sys
 
+
 def top_ten(subreddit):
     """
     Function that queries the Reddit API"""
