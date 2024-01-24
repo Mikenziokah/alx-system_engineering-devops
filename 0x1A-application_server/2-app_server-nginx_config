@@ -1,9 +1,6 @@
-# /etc/nginx/sites-available/2-app_server-nginx_config
-# Symbolic link to this file is usually placed in /etc/nginx/sites-enabled/
-
 server {
     listen 80;
-    server_name localhost;  # Change to your server's public IP or domain name
+    server_name 52.91.119.212;
 
     location /airbnb-onepage/ {
         proxy_pass http://127.0.0.1:5000;
