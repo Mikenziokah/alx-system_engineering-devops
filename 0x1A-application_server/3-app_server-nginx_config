@@ -117,4 +117,3 @@ location ~ /airbnb-dynamic/number_odd_or_even/(\d+)$ {
 #               try_files $uri $uri/ =404;
 #       }
 #}
-
